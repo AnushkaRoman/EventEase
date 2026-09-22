@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #212529;
+}
+
+
+/* Hero */
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.hero-section h1 span {
+    color: #ffd43b;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.hero-card {
+    background: white;
+    color: #212529;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.hero-card i {
+    font-size: 55px;
+    color: #0d6efd;
+}
+
+
+/* Sections */
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+/* Events */
+
+.event-card {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+}
+
+.event-icon {
+    font-size: 45px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.event-card h4 {
+    font-weight: 600;
+}
+
+
+/* Registration */
+
+.registration-section {
+    padding: 80px 0;
+    background: #eef4ff;
+}
+
+.form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Count */
+
+.count-box {
+    background: #0d6efd;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.count-box span {
+    font-size: 20px;
+}
+
+
+/* Table */
+
+.table {
+    background: white;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+
+/* Footer */
+
+footer {
+    background: #212529;
+    color: white;
+    padding: 40px 0;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero-card {
+        margin-top: 40px;
+    }
+
+    .form-card {
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .section-padding,
+    .registration-section {
+        padding: 55px 0;
+    }
+
+}
